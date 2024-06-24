@@ -1,0 +1,7 @@
+## Ignore TikTokLiveSharp-Files
+
+TikTokLiveSharp_TestApplication/
+TikTokLiveSharp/TikTokLiveSharp.csproj
+TikTokLiveSharp/TikTokLiveSharp.sln
+icon.png
+icon.meta

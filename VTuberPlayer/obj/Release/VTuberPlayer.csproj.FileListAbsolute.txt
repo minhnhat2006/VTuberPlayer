@@ -1,0 +1,15 @@
+F:\Projects\Local\.Net\VTuberPlayer\VTuberPlayer\bin\Release\VTuberPlayer.exe.config
+F:\Projects\Local\.Net\VTuberPlayer\VTuberPlayer\bin\Release\VTuberPlayer.exe
+F:\Projects\Local\.Net\VTuberPlayer\VTuberPlayer\bin\Release\VTuberPlayer.pdb
+F:\Projects\Local\.Net\VTuberPlayer\VTuberPlayer\obj\Release\VTuberPlayer.csprojAssemblyReference.cache
+F:\Projects\Local\.Net\VTuberPlayer\VTuberPlayer\obj\Release\MainWindow.g.cs
+F:\Projects\Local\.Net\VTuberPlayer\VTuberPlayer\obj\Release\App.g.cs
+F:\Projects\Local\.Net\VTuberPlayer\VTuberPlayer\obj\Release\VTuberPlayer_MarkupCompile.cache
+F:\Projects\Local\.Net\VTuberPlayer\VTuberPlayer\obj\Release\VTuberPlayer_MarkupCompile.lref
+F:\Projects\Local\.Net\VTuberPlayer\VTuberPlayer\obj\Release\MainWindow.baml
+F:\Projects\Local\.Net\VTuberPlayer\VTuberPlayer\obj\Release\VTuberPlayer.g.resources
+F:\Projects\Local\.Net\VTuberPlayer\VTuberPlayer\obj\Release\VTuberPlayer.Properties.Resources.resources
+F:\Projects\Local\.Net\VTuberPlayer\VTuberPlayer\obj\Release\VTuberPlayer.csproj.GenerateResource.cache
+F:\Projects\Local\.Net\VTuberPlayer\VTuberPlayer\obj\Release\VTuberPlayer.csproj.CoreCompileInputs.cache
+F:\Projects\Local\.Net\VTuberPlayer\VTuberPlayer\obj\Release\VTuberPlayer.exe
+F:\Projects\Local\.Net\VTuberPlayer\VTuberPlayer\obj\Release\VTuberPlayer.pdb

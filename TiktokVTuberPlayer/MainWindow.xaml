@@ -1,0 +1,56 @@
+﻿<Window x:Class="TiktokVTuberPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TiktokVTuberPlayer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="639">
+    <Window.Resources>
+        <ResourceDictionary>
+            <RoutedUICommand x:Key="Esc" Text="Exit Fullscreen" />
+        </ResourceDictionary>
+    </Window.Resources>
+    <Window.InputBindings>
+        <KeyBinding Command="{StaticResource Esc}" Key="Esc"/>
+    </Window.InputBindings>
+    <Window.CommandBindings>
+        <CommandBinding Command="{StaticResource Esc}" Executed="EscShortcut" />
+    </Window.CommandBindings>
+    <DockPanel LastChildFill="False" HorizontalAlignment="Center">
+        <Grid x:Name="gridRoot" DockPanel.Dock="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0">
+                <Label Name="lblStatus" Content="Not playing..." HorizontalContentAlignment="Center" Margin="5" />
+                <WrapPanel HorizontalAlignment="Center">
+                    <Button Name="btnPlay" Click="btnPlay_Click">Play</Button>
+                    <Button Name="btnPause" Margin="5,0" Click="btnPause_Click">Pause</Button>
+                    <Button Name="btnStop" Click="btnStop_Click">Stop</Button>
+                    <Button Name="btnFullscreen" Click="btnFullScreen_Click" >Full Screen</Button>
+                </WrapPanel>
+            </StackPanel>
+            <StackPanel Grid.Row="1">
+                <WrapPanel HorizontalAlignment="Center">
+                    <Label Content="Tiktok Username:"/>
+                    <TextBox x:Name="txtTiktokUsername" Text="" TextWrapping="Wrap" Width="150"/>
+                    <Button Name="btnStartListener" Click="btnStartListener_Click">Start Listener</Button>
+                </WrapPanel>
+                <WrapPanel HorizontalAlignment="Center">
+                    <Label x:Name="lblMessageInQueue" Content=""/>
+                </WrapPanel>
+            </StackPanel>
+        </Grid>
+        <WrapPanel HorizontalAlignment="Center" DockPanel.Dock="Left"></WrapPanel>
+        <WrapPanel HorizontalAlignment="Center" DockPanel.Dock="Right"></WrapPanel>
+        <WrapPanel HorizontalAlignment="Center" DockPanel.Dock="Bottom" Margin="10">
+            <CheckBox x:Name="chkScrollToBottom" Width="200">Scroll to bottom automatically</CheckBox>
+            <Button Name="btnClearLogs" Click="btnClearLogs_Click">Clear Logs</Button>
+        </WrapPanel>
+        <ScrollViewer x:Name="scrollViewer">
+            <TextBlock x:Name="lblMessage" TextWrapping="WrapWithOverflow" Margin="10,10,10,10"></TextBlock>
+        </ScrollViewer>
+    </DockPanel>
+</Window>

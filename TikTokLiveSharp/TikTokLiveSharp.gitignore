@@ -1,0 +1,7 @@
+## Ignore TikTokLiveUnity-Files
+
+*.meta
+*.asmdef
+*.unity
+TikTokLiveUnity/
+package.json
